@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+if [ -z "${FLAG}" ]; then
+    >&2 echo "Error: FLAG variable is not set or is empty."
+    exit 1
+fi
+
+echo $FLAG > flag.txt

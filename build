@@ -5,4 +5,4 @@ if [ -z "${FLAG}" ]; then
     exit 1
 fi
 
-echo $FLAG > flag.txt
+echo "$FLAG" > flag.txt
